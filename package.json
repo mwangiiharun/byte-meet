@@ -1,0 +1,28 @@
+{
+  "name": "video-meet",
+  "version": "1.0.0",
+  "description": "Simple video chat app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mwangiiharun/byte-meet.git"
+  },
+  "keywords": [
+    "video",
+    "chat",
+    "meetings"
+  ],
+  "author": "Harun Mwangi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mwangiiharun/byte-meet/issues"
+  },
+  "homepage": "https://github.com/mwangiiharun/byte-meet#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
