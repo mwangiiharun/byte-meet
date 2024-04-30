@@ -1,0 +1,84 @@
+#video-grid {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    gap: 10px;
+    padding: 10px;
+}
+
+@media (min-width: 500px) {
+    #video-grid {
+        grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+    }
+}
+
+@media (min-width: 750px) {
+    #video-grid {
+        grid-template-columns: repeat(auto-fill, minmax(33.33%, 1fr));
+    }
+}
+
+@media (min-width: 1000px) {
+    #video-grid {
+        grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
+    }
+}
+@media (min-width: 1500px) {
+    #video-grid {
+        grid-template-columns: repeat(auto-fill, minmax(16.67%, 1fr));
+    }
+}
+@media (min-width: 1250px) {
+    #video-grid {
+        grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
+    }
+}
+@media (min-width: 1750px) {
+    #video-grid {
+        grid-template-columns: repeat(auto-fill, minmax(14.28%, 1fr));
+    }
+}
+@media (min-width: 2000px) {
+    #video-grid {
+        grid-template-columns: repeat(auto-fill, minmax(12.5%, 1fr));
+    }
+}
+
+video {
+    justify-content: center;
+    transform: scaleX(-1);
+    border-radius: 10px;
+    object-fit: cover;
+    border: 5px solid #ccc;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease;
+    margin: 10px; /* Add margin to space out the videos */
+}
+
+video:hover {
+    transform: scaleX(-1) scale(1.05);
+    border-color: #777;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.main{
+    display: flex;
+    height: 100vh;
+    background: #f1f1f1;
+}
+
+.main__left{
+    display: flex;
+    flex:0.8
+}
+
+.main__right{
+    display: flex;
+    flex:0.2;
+}
+.main__videos{
+    flex-grow: 1;
+    background: black;
+    justify-content: center;
+    align-items: center;
+}
