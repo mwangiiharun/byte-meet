@@ -34,23 +34,20 @@ Dive into the whimsical world of ByteMeet, my personal Node.js playground where 
 
 Embrace the madness of a platform where cutting-edge technologies like WebRTC and Socket.io meet a developer who thinks reading the documentation is cheating. Your feedback will help—either by improving the platform or at least by giving me a good laugh.
 
-## Get Started
+## How to Contribute to the Anarchy
 
-```bash
-git clone https://github.com/mwangiiharun/byte-meet.git
-cd ByteMeet
-npm install
-npm run dev
-How to Contribute to the Anarchy
-Fork: Yes, it's like a rebellion against my codebase.
-Branch: Because chaos is a ladder.
-Commit: Make your changes and convince me they're good.
-Push: Send your contributions back to the mothership.
-Pull Request: Demand that your code be merged. Nicely, though.
-Bug Reports & Feature Requests
+- **Fork**: Yes, it's like a rebellion against my codebase.
+- **Branch**: Because chaos is a ladder.
+- **Commit**: Make your changes and convince me they're good.
+- **Push**: Send your contributions back to the mothership.
+- **Pull Request**: Demand that your code be merged. Nicely, though.
+
+## Bug Reports & Feature Requests
+
 Please use the GitHub issues to report any bugs or file feature requests. Preparing a detailed issue will help me fix it more quickly.
 
-Why Are We Doing This?
+## Why Are We Doing This?
+
 Why not? After all, meetings should be fun, and so should development. Let's make both better, one crash at a time.
 
 Happy Coding!
